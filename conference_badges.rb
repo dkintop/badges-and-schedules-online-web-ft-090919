@@ -27,5 +27,8 @@ def printer
     puts badge
   assign_rooms.each |assignement|
   puts |assignement|
+end
+end
+end
   
   
