@@ -27,6 +27,7 @@ def printer(attendee)
       if greeting.include?(attendee)
         puts greeting
       end
+    end
     
     
   
