@@ -22,9 +22,12 @@ def assign_rooms(speakers)
   list
 end
 
-def printer(attendees)
-  attendees.each do |attendee|
-    puts batch_badge_creator(attendee)
-    puts assign_rooms(attendee)
-  end
+def printer(attendee)
+    assign_rooms.each do |greeting|
+      if greeting.include?(attendee)
+        puts greeting
+      end
+    
+    
+  
 end
