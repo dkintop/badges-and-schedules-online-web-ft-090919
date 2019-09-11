@@ -22,13 +22,5 @@ def assign_rooms(speakers)
   list
 end
 
-def printer(attendee)
-    assign_rooms.each do |greeting|
-      if greeting.include?(attendee)
-        puts greeting
-      end
-    end
-    
-    
-  
+def printer
 end
