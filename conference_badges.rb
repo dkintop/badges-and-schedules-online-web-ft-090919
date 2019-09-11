@@ -8,5 +8,5 @@ names.each do |name|
   a = "Hello, my name is #{name}"
   batch << a
   end
-
+batch
 end
